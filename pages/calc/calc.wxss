@@ -1,0 +1,68 @@
+.calcContainer {
+    height: 100%;
+    background: #000;
+    font-family: '幼圆';
+}
+.displayArea{
+    height: 220px;
+    /*background: #333;*/
+    position: relative;
+}
+.displayArea text {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    color: #666;
+}
+.displayArea .result {
+    font-size: 48px;
+    height: 60px;
+    line-height: 60px;
+    bottom: 40px;
+    color: #fff;
+}
+.functioArea text {
+    width: 25%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    background: #666;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: 100;
+}
+.functioArea text:hover {
+    background: #333;
+}
+.functioArea text.last {
+    border-right: none;
+}
+.functioArea text.equal {
+    height: 120px;
+    line-height: 120px;
+    vertical-align: top;
+    float: right;
+    background: darkorange;
+}
+.functioArea text.equal:hover {
+    background: orange;
+}
+.functioArea text.zero {
+    width: 50%;
+}
+.functioArea text.left {
+    float: left;
+}

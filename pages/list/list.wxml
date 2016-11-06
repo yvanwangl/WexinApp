@@ -1,0 +1,5 @@
+<view class='itemContainer'>
+    <block wx:for="{{items}}">
+        <view class='item' bindtap="onItem{{index}}">{{index}}:{{item}}</view>
+    </block>
+</view>

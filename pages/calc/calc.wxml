@@ -1,0 +1,40 @@
+<view class='calcContainer'>
+    <view class='displayArea'>
+         <text class='result'>{{result}}</text>
+         <text>{{progress}}</text>
+    </view>
+   <view class="functioArea" bindtap="buttonTap">
+        <view >
+            <text>(</text>
+            <text>)</text>
+            <text>%</text>
+            <text class='last'>C</text>
+        </view>
+        <view >
+            <text>+/-</text>
+            <text>÷</text>
+            <text>×</text>
+            <text class='last'>Del</text>
+        </view>
+        <view >
+            <text>7</text>
+            <text>8</text>
+            <text>9</text>
+            <text class='last'>-</text>
+        </view>
+        <view >
+            <text>4</text>
+            <text>5</text>
+            <text>6</text>
+            <text class='last'>+</text>
+        </view>
+        <view >
+            <text>1</text>
+            <text>2</text>
+            <text>3</text>
+            <text class='last equal'>=</text>
+            <text class='zero left'>0</text>
+            <text class='left'>.</text>
+        </view>
+   </view>
+</view>
